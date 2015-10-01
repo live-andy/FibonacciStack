@@ -47,6 +47,7 @@ int Fibonacci::answer(void)
 	int PopData;
 	while (!IsEmpty())
 	{
+		//std::cout << Elements << std::endl;
 		PopReceiver = pop();
 		if (PopReceiver->Data >= 2)
 		{

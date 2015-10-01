@@ -3,7 +3,7 @@
 
 int main(void)
 {
-	Fibonacci Test(10);
+	Fibonacci Test(30);
 	std::cout << Test.answer();
 	std::cin.get();
 }
